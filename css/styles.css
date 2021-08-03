@@ -1,0 +1,127 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Mono',monospace;
+}
+h1 {
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+body {
+
+}
+
+.navbar-brand {
+    font-family: 'Roboto Mono',monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.nav-link{
+    padding-bottom: 4.5rem;
+    font-size: 1.2rem;
+    
+    font-family: 'Roboto Mono',monospace;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.download{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+#features {    
+    background-color: white;
+    position: relative;
+    
+}
+.first {
+    padding: 4.5%;
+    text-align: center;
+}
+.thisone{
+    color: red;
+}
+.thisone:hover{
+    color: seashell;
+}
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+}
+h2 {
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.presslogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta {
+    text-align: center;
+    background-color: palevioletred;
+}
+#footer {
+    text-align: center;
+    padding-top: 100px;
+}
+.text-center {
+    
+    width: 10%;
+    
+}
+.padde{
+    margin-left: 500px;
+    margin-top: 40px;
+    
+}
+.mang {
+    margin-top: 40px;
+    margin-right: 450px;
+}
